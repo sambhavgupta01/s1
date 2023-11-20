@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: gray;
+}
+.main{
+    background-color: rgb(49, 44, 44);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+}
+.nav img{
+    height: 4vw;
+    border-radius: 10%;
+}
+.as{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(49, 44, 44);
+    height: 400px;
+}
+.boxes .box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(29, 233, 63);
+    margin-left: 30px;
+    height: 200px;
+    width: 200px;
+    padding-left: 40px;
+}
+.boxes .box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(233, 29, 29);
+    height: 200px;
+    width: 200px;
+    padding-left: 40px;
+}
+.boxes .box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(230, 233, 29);
+    height: 200px;
+    width: 200px;
+    padding-left: 40px;
+}
+.boxes .box4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(32, 29, 233);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin-right: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+aside{
+    width: 70px;
+    height: 120px;
+    background-color: rgb(190, 26, 26);
+    float: right;
+    z-index: 999;
+    padding-top: 30px;
+    margin-top: 150px;
+}
+.desi{
+    background-color: aqua;
+    color: black;
+    border: black;
+    margin: 4px 2px;
+    border: none;
+    display: inline-block;
+}
